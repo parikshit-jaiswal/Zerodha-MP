@@ -1,0 +1,11 @@
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+.press-logos:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,38 @@
+.footer {
+    border-top: 1px solid #eee;
+    background-color: #fbfbfb;
+    padding-bottom: 25px;
+    color: #424242;
+}
+
+.link {
+    color: #424242;
+    display: flex;
+    flex-direction: column;
+}
+
+.link:hover {
+    color: #007bff;
+}
+
+.CCmsg {
+    font-size: smaller;
+}
+
+.about {
+    font-size: 12px;
+    opacity: 0.65
+}
+
+.footerLinks {
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footerLinks a {
+    text-wrap: nowrap;
+    margin: 5px;
+}

@@ -5,6 +5,7 @@
     display: flex;
     padding: 0 10%;
     padding-right: 13.5%;
+
     z-index: 100;
 }
 
@@ -39,13 +40,10 @@
 
 .logo {
     height: 1.1rem;
-
 }
 
 .menu-btn {
     font-size: 20px;
-
-
 }
 
 

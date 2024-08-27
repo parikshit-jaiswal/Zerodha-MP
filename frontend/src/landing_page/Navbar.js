@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 import './Navbar.css';
 
 function Navbar() {
@@ -9,17 +10,17 @@ function Navbar() {
     };
 
     return (
-        <div className='navbar fixed-top'>
+        <div className='navbar sticky-top'>
             <div>
-                <img className='logo mx-5' src="media/images/logo.svg" alt="Zerodha.img" />
+                <Link className='logo' to="/"><img className='logo mx-5' src="media/images/logo.svg" alt="Zerodha.img" /></Link>
             </div>
             {/* Nav for large size */}
             <div className="navLinks fs-6">
-                <a href="#">Signup</a>
-                <a href="#">About</a>
-                <a href="#">Products</a>
-                <a href="#">Pricing</a>
-                <a href="#">Support</a>
+                <Link to="/signup">Signup</Link>
+                <Link to="/about">About</Link>
+                <Link to="/pricing">Pricing</Link>
+                <Link to="/products">Products</Link>
+                <Link to="support">Support</Link>
                 <i className="menu-btn fa fa-bars" aria-hidden="true" onClick={handleMenuToggle}></i>
             </div>
 
@@ -29,13 +30,13 @@ function Navbar() {
                     <div className="pri-menu p-3 row">
                         <i className="exit-btn fa fa-times" aria-hidden="true" onClick={handleMenuToggle}></i>
                         <div className="sec-1 col-6">
-                            <a href="#">Signup</a>
-                            <a href="#">About</a>
-                            <a href="#">Products</a>
+                            <a href="/signup">Signup</a>
+                            <a href="/about">About</a>
+                            <a href="/products">Products</a>
                         </div>
                         <div className="sec-2 col-6">
-                            <a href="#">Pricing</a>
-                            <a href="#">Support</a>
+                            <a href="/pricing">Pricing</a>
+                            <a href="support">Support</a>
                         </div>
                     </div>
                     <div className="sec-menu pb-2 p-3 row">
@@ -68,7 +69,7 @@ function Navbar() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 }
 

@@ -1,7 +1,7 @@
 import React from 'react'
 function Hero() {
     return (
-        <div className='container mt-5 mb-5' style={{ paddingTop: "5rem" }} >
+        <div className='container mb-5' style={{ paddingTop: "5rem" }} >
             <div className="row text-center">
                 <img className='mb-5' src="media/images/homeHero.png" alt="Hero Image" style={{ width: "50rem", margin: "auto" }} />
                 <h1 className='mt-4'>Invest in everything</h1>

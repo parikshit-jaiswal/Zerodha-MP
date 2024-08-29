@@ -1,0 +1,24 @@
+.input-container {
+    margin-top: 40px;
+    color: #444444c6;
+    max-width: 400px;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.endPara {
+    color: #444444c6;
+    margin-bottom: 10rem;
+    padding-right: 12%;
+}
+
+.label {
+    color: #444444c6;
+    z-index: 5;
+    font-size: 12px;
+    position: absolute;
+    top: -13px;
+    left: 30px;
+}

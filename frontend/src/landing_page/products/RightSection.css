@@ -1,0 +1,6 @@
+@media (max-width: 993px) {
+  .rightSection {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

@@ -1,6 +1,20 @@
 .bg {
-    background-color: #387ed1;
-    color: white;
-    height: fit-content;
+  background-color: #387ed1;
+  color: white;
+}
 
+.white a {
+  color: white;
+}
+
+input {
+  height: 3.5rem;
+  width: 90%;
+  padding: 1rem;
+}
+
+@media (width >= 992px) {
+  .head {
+    padding-left: 3rem;
+  }
 }

@@ -12,7 +12,7 @@ function LeftSection({
     <div className="container mb-5" style={{ padding: "0 6%" }}>
       <div className="row">
         <div className="col-lg-7">
-          <img src={imageURL} alt="imgage" width="95%" />
+          <img src={imageURL} alt="imgage" width="85%" />
         </div>
         <div className="col-lg-1"></div>
         <div className="col-lg-4 mt-5">
